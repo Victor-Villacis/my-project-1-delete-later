@@ -1,7 +1,7 @@
 let allPokemon = [];
 
 const apiUrl = 'https://pokeapi.co/api/v2/pokemon?limit=150';
-
+console.log('hello')
 fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
